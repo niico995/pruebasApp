@@ -11,6 +11,9 @@ activate
 
 pip install PySide6 
 
+pip install sqlalchemy
+
+pip install pymysql
 
 
 ## Para abrir el Designer en la terminal ingresar
