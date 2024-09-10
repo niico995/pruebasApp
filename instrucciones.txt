@@ -1,0 +1,37 @@
+## Crear entorno 
+
+python -m venv entorno
+
+## Acceder al entorno y activarlo (cambiando a cmd en vez de powershell)
+
+cd entorno/Scripts
+activate
+
+## Instalar dependencias (respetando mayusculas)
+
+pip install PySide6 
+
+
+
+## Para abrir el Designer en la terminal ingresar
+
+pyside6-designer
+
+
+
+
+
+## Estructura del proyecto
+
+Nos vamos a manejar con MVC (Modelo Vista Controlador)
+
+** En config vamos a realizar la conexión a la base de datos y demas requerimientos como puede ser el mail para enviar un backup
+
+** En controladores vamos a realizar las diferentes funciones que vayamos necesitando
+
+** En modelos van a estar las clases de las diferentes entidades que manejemos, van a tener sus datos y sus metodos para manipularlos en la bd
+
+** En vistas van a estar los archivos que vayamos diseñando en el Designer
+
+** app.py es el encargado de ejecutar la aplicación
+
